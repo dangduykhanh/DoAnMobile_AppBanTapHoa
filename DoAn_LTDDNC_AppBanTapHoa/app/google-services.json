@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1066080466977",
+    "project_id": "doan-ltddnc-appbantaphoa",
+    "storage_bucket": "doan-ltddnc-appbantaphoa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066080466977:android:08d3edbb581cfa16bf0b60",
+        "android_client_info": {
+          "package_name": "com.example.doan_ltddnc_appbantaphoa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066080466977-rp73964foajqs6o2n8i019a9v5tgi3eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS3Fs9hOtAgxzxCf4A_klcwXtbYiuKWMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066080466977-rp73964foajqs6o2n8i019a9v5tgi3eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.doan_ltddnc_appbantaphoa.HomeFragment"
+        android:label="Trang chủ"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.doan_ltddnc_appbantaphoa.CategoryFragment"
+        android:label="Danh mục"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.doan_ltddnc_appbantaphoa.ProfileFragment"
+        android:label="Tài khoản"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/offersFragment"
+        android:name="com.example.doan_ltddnc_appbantaphoa.OffersFragment"
+        android:label="Giảm giá"
+        tools:layout="@layout/fragment_offers" />
+    <fragment
+        android:id="@+id/newProductsFragment"
+        android:name="com.example.doan_ltddnc_appbantaphoa.NewProductsFragment"
+        android:label="Sản phẩm mới"
+        tools:layout="@layout/fragment_new_products" />
+    <fragment
+        android:id="@+id/myOrdersFragment"
+        android:name="com.example.doan_ltddnc_appbantaphoa.MyOrdersFragment"
+        android:label="Đơn hàng"
+        tools:layout="@layout/fragment_my_orders" />
+    <fragment
+        android:id="@+id/myCartFragment"
+        android:name="com.example.doan_ltddnc_appbantaphoa.MyCartFragment"
+        android:label="Giỏ hàng"
+        tools:layout="@layout/fragment_my_cart" />
+</navigation>

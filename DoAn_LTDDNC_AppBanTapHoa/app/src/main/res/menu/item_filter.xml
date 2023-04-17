@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/filter"
+        android:icon="@drawable/ic_filter"
+        app:showAsAction="always"
+        android:title="Sắp xếp">
+        <menu>
+            <item android:id="@+id/sort_price"
+             android:title="Giá giảm dần"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_sortprice" />
+            <item android:id="@+id/sort_dropprice"
+                android:title="Giảm giá"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_sort_dropprice" />
+
+        </menu>
+    </item>
+</menu>

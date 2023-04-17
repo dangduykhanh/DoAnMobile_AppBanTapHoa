@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_register"
+    app:startDestination="@id/fullnameFragment">
+
+    <fragment
+        android:id="@+id/fullnameFragment"
+        android:name="com.example.doan_ltddnc_appbantaphoa.RegisterFragment.FullNameFragment"
+        android:label="Họ tên"
+        tools:layout="@layout/fragment_full_name" >
+        <action
+            android:id="@+id/action_fullnameFragment_to_usernamePasswordFragment"
+            app:destination="@id/usernamePasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usernamePasswordFragment"
+        android:name="com.example.doan_ltddnc_appbantaphoa.RegisterFragment.UsernamePasswordFragment"
+        android:label="Email"
+        tools:layout="@layout/fragment_username_password" >
+    </fragment>
+</navigation>
